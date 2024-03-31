@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap style added -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome style added -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- normalize css added -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Custom css added -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Contact Form starts -->
+<section id="contactForm">
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                  <p class="h1 text-uppercase text-center">Registration Info</p>
+
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="form-group">
+                            <label for="fName">First Name</label>
+                            <input type="text" class="form-control" id="fName" placeholder="First Name">
+                          </div>
+                       </div>
+                       <div class="col-sm-4 col-md-4">
+                        <div class="form-group">
+                            <label for="middleName">Middle Name</label>
+                            <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+                          </div>
+                       </div>
+                       <div class="col-sm-4 col-md-4">
+                        <div class="form-group">
+                            <label for="lName">Last Name</label>
+                            <input type="text" class="form-control" id="lName" placeholder="Last Name">
+                          </div>
+                       </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 col-md-6">
+
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="FatherFname">Father's First Name</label>
+                                <input type="text" class="form-control" id="FatherFname" placeholder="Fathre's First Name">
+                              </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <label for="fathersLname">Father's Last Name</label>
+                                <input type="text" class="form-control" id="fathersLname" placeholder="Father's Last Name">
+                              </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <label for="mName">Mother's Name</label>
+                            <input type="text" class="form-control" id="mName" placeholder="Mother's Name">
+                          </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    <p class="help-block">Use only Email Address
+
+                    </p>
+
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="birthDate">Birth Date</label>
+                    <input type="date" class="form-control" id="birthDate">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                          Female
+                        </label>
+                      </div>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                          Others
+                        </label>
+                      </div>
+
+
+
+                  </div>
+
+                  <div class="form-group">
+                    <label>Education Qualification</label>
+
+
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          Under-Graduate
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          Graduate
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          HSC
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          SSC
+                        </label>
+                      </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Comments">Type your Comment(if any)</label><br>
+                    <textarea name="Comments" id="Comments" cols="60" rows="4"></textarea>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="members" >Select Your Family Members</label>
+                    <select class="form-control"  id="members" >
+                        <option>Enter Your Choice</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="income" >Monthly Family Income</label>
+
+
+                    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                    <div class="input-group">
+                      <div class="input-group-addon"> ৳</div>
+                      <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                      
+                    </div>
+
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">UPload Your Recent PP Color Photo</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Your photo must be 300*300 and size 5 mb
+
+                    </p>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Check me out
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+
+
+
+
+
+
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery file added -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Js file added -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
